@@ -1,0 +1,16 @@
+{
+  "include": ["*"],
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../dist/proj2",
+    "paths": {
+      "proj1": ["../proj1"]
+    }
+  },
+  "references": [
+    {
+      "path": "../proj1"
+    }
+  ]
+}
